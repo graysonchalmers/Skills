@@ -17,3 +17,19 @@ skills/
     SKILL.md              ← skill definition, procedure, and output schema
     references/           ← supporting reference files (schemas, examples, etc.)
 ```
+
+## Validating & maintaining skills
+
+A `run-skills` tooling skill lives at `.claude/skills/run-skills/`. It bundles a
+zero-dependency validator plus the repo's GitHub sync workflow. Lint every
+skill before committing (exit `0` = all valid, `1` = a blocking error):
+
+```bash
+node .claude/skills/run-skills/validate.mjs
+```
+
+It checks each `skills/*/SKILL.md` for valid frontmatter, a `name` matching its
+folder, a present `description`, and that referenced `references/` files exist.
+See `.claude/skills/run-skills/SKILL.md` for the full workflow, including the
+GitHub gotchas (the default branch is not `main`; MCP writes 404 on branches
+that haven't been pushed yet).
