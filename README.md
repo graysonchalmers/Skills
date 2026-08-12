@@ -5,4 +5,4 @@ A curated public subset of my skill library, published from a private source of 
 ## Skills
 
 - **Art-Brief** - >
-- **Image-Decomp** - >
+- **Image-Decomp** - decompose and decode any image: craft (palette, style, refs, regen prompt) + intent (engagement archetypes, dopamine-hook + authenticity-gap). analyze, decode, or reverse-engineer any image.
