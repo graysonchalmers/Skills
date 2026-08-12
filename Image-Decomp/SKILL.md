@@ -1,9 +1,9 @@
 ---
 name: image-decomp
 visibility: public
-description: "Decompose and decode any image: craft (palette, style, refs, regen prompt) + intent (engagement archetypes, Dopamine-Hook + Authenticity-Gap). Analyze, decode, or reverse-engineer any image."
+description: "Decompose and decode any image: craft (palette, style, refs, X-meets-Y pitch lines, regen prompt) + intent (engagement archetypes, Dopamine-Hook + Authenticity-Gap). Analyze, decode, or reverse-engineer any image."
 metadata:
-  version: "3.0"
+  version: "3.1"
 ---
 
 # Image Decomposition + Intent Engine (VDE) — v3
@@ -15,7 +15,8 @@ Every image is engineered to do something to whoever looks at it — even a
 **two axes at once**:
 
 - **CRAFT axis** — *how was this made?* Palette, style lineage, medium,
-  technique, references, and a prompt that could regenerate it. (This was v2.)
+  technique, references, X-meets-Y pitch lines, and a prompt that could
+  regenerate it. (This was v2; pitch lines arrived in v3.1.)
 - **INTENT axis (the VDE engine)** — *what is this trying to do to a viewer,
   and how honest is it about that?* Gaze engineering, element roles, engagement
   archetypes, and two scores: **Dopamine Hook** and **Authenticity Gap**.
@@ -156,6 +157,46 @@ campaigns, **each with a reason** (say WHY it's comparable). Prioritize by type:
 
 ---
 
+## Step 6b — Pitch Lines ("X meets Y")
+
+References (Step 6) tell a practitioner *how it looks*. A pitch line tells
+anyone *what it IS* — in one breath. This is the elevator move: "the vibe of
+Team Fortress 2 with the hero concept from League of Legends" sold Overwatch
+in a sentence, because both halves already lived in the listener's head and
+the **combination itself** carried the new idea. Individual references cite
+parents; a pitch line states a thesis.
+
+Generate **2–4 pitch lines**, each shaped as:
+
+> **[Known thing]'s [specific dimension] + [Known thing]'s [specific
+> dimension]** — optionally "with a twist of [Z]" for a third, smaller
+> ingredient.
+
+Rules that make these land instead of flop:
+
+- **Name the dimension, never just the IP.** "TF2 + LoL" is noise; "TF2's
+  *vibe* + LoL's *hero concept*" is a design thesis. Every half must say what
+  it borrows: palette, silhouette language, camera, tone, world logic,
+  character design philosophy, rendering style, lighting.
+- **Tier the familiarity, and label it.** At least one `mainstream` pairing a
+  non-specialist would recognize; let the others go `medium` or `deep-cut`.
+  The goal: at least one line lands with whoever is in the room, while the
+  deep-cut rewards a reader who knows more.
+- **Cross domains when it sharpens.** Game + film, photographer + brand
+  campaign, artist + movement. Two halves from different worlds triangulate a
+  position better than two neighbors from the same shelf.
+- **Earn every half.** Each half must point at something actually visible in
+  the image — an observation you already made in Steps 2–6. If you can't
+  point at the pixels, cut the line. No vibes-only mashups.
+- **They're proposals, not verdicts.** These are conversation-starters the
+  user can hand a stakeholder, a vendor, or a skeptical exec. If a line is a
+  stretch, say so in its evidence — an honest stretch beats a safe-but-dull
+  pairing.
+
+Report each as: `"pitch line" — tier — evidence for each half`.
+
+---
+
 ## Step 7 — Technical Summary
 
 3–5 sentences: (1) visual language & palette strategy, (2) composition & spatial
@@ -273,6 +314,13 @@ Always produce TWO outputs.
   ],
   "tags": ["..."],
   "artisticReferences": ["Name — why"],
+  "pitchLines": [
+    {
+      "line": "Team Fortress 2's readable team-shooter silhouettes + League of Legends' hero-first character design",
+      "tier": "mainstream | medium | deep-cut",
+      "evidence": "what in THIS image earns each half"
+    }
+  ],
   "customFields": [{ "label": "...", "value": "..." }],
   "metadata": { },
   "intent": {
@@ -295,16 +343,19 @@ the Truth-Claim Flag selected.
 
 1. **Title** as H1
 2. **Image Type + Truth-Claim** called out (e.g., `Social Post — claims-real`)
-3. **Technical Summary** — paragraph
-4. **Composition & Gaze** — structure, focal anchor, gaze path, depth (anchors as a small list)
-5. **Artistic References** — comma-separated, each with a WHY
-6. **Generated Prompt** — blockquote
-7. **Tags** — inline badges
-8. **Color Palette** — inline hex codes with role labels
-9. **Element-Utility Map** — clean table (element / role / persuades toward)
-10. **Custom Fields** — table
-11. **Metadata** — two-column table, only populated fields
-12. **🎯 Intent Decode** — archetypes (with confidence), Dopamine Hook Score (number + band + drivers), Authenticity Gap *or* Construction Transparency, and the viewer-effect summary. Put this section last and make it the strongest — it's what v3 adds.
+3. **⚡ Pitch Lines** — the 2–4 one-liners as blockquotes with tier labels.
+   Deliberately placed *before* the detail: a reader should get *what it is*
+   before *how it's built* — this is the elevator moment.
+4. **Technical Summary** — paragraph
+5. **Composition & Gaze** — structure, focal anchor, gaze path, depth (anchors as a small list)
+6. **Artistic References** — comma-separated, each with a WHY
+7. **Generated Prompt** — blockquote
+8. **Tags** — inline badges
+9. **Color Palette** — inline hex codes with role labels
+10. **Element-Utility Map** — clean table (element / role / persuades toward)
+11. **Custom Fields** — table
+12. **Metadata** — two-column table, only populated fields
+13. **🎯 Intent Decode** — archetypes (with confidence), Dopamine Hook Score (number + band + drivers), Authenticity Gap *or* Construction Transparency, and the viewer-effect summary. Put this section last and make it the strongest — it's what v3 adds.
 
 ---
 
