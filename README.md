@@ -4,5 +4,5 @@ A curated public subset of my skill library, published from a private source of 
 
 ## Skills
 
-- **Art-Brief** - >
-- **Image-Decomp** - decompose and decode any image: craft (palette, style, refs, regen prompt) + intent (engagement archetypes, dopamine-hook + authenticity-gap). analyze, decode, or reverse-engineer any image.
+- **Art-Brief** - Composes vendor-ready art briefs from any inputs: text descriptions, reference images, project context, IP references, asset lists, or rough sketches. Use whenever a user wants to create, write, or generate an art brief, style guide, asset spec, outsource brief, or art direction document for any creative asset — game art, film, industrial design, illustration, concept art, props, characters, environments, creatures, marketing assets, or physical fabrication. Triggers on: "write me a brief for...", "I need to brief a vendor on...", "help me spec out this asset", "how do I describe this art style to an artist", "I have this idea and need to get it on paper", or "turn this concept into something I can send to a studio." Core purpose: compress a creator's mental vision into the highest-fidelity written specification possible, minimizing lossy transfer between minds. Also handles brief iteration — updating an existing brief based on vendor questions, stakeholder feedback, or evolved creative direction.
+- **Image-Decomp** - Decompose and decode any image: craft (palette, style, refs, regen prompt) + intent (engagement archetypes, Dopamine-Hook + Authenticity-Gap). Analyze, decode, or reverse-engineer any image.
