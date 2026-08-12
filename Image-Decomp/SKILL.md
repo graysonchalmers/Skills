@@ -1,6 +1,7 @@
 ---
 name: image-decomp
 version: 2.0
+visibility: public
 description: >
   Universal image decomposition and analysis skill. Analyzes any image and
   produces a structured report covering visual summary, color palette, style

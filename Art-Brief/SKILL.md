@@ -1,6 +1,7 @@
 ---
 name: art-brief
 version: 2.2
+visibility: public
 description: >
   Composes vendor-ready art briefs from any inputs: text descriptions, reference
   images, project context, IP references, asset lists, or rough sketches. Use
