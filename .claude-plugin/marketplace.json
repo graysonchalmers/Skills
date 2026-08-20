@@ -1,0 +1,20 @@
+{
+  "name": "skills-public",
+  "owner": {
+    "name": "Grayson Chalmers",
+    "url": "https://github.com/graysonchalmers"
+  },
+  "description": "Grayson Chalmers' public Claude Code skills, published from a private source of truth.",
+  "plugins": [
+    {
+      "name": "art-brief",
+      "source": "./Art-Brief",
+      "description": "Composes vendor-ready art briefs from any inputs: text descriptions, reference images, project context, IP references, asset lists, or rough sketches."
+    },
+    {
+      "name": "image-decomp",
+      "source": "./Image-Decomp",
+      "description": "Decompose and decode any image: craft (palette, style, refs, X-meets-Y pitch lines, regen prompt) + intent (engagement archetypes, Dopamine-Hook + Authenticity-Gap)."
+    }
+  ]
+}

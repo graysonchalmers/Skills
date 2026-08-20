@@ -1,0 +1,9 @@
+{
+  "name": "art-brief",
+  "version": "1.0.0",
+  "author": {
+    "name": "Grayson Chalmers",
+    "url": "https://github.com/graysonchalmers"
+  },
+  "description": "Composes vendor-ready art briefs from any inputs: text descriptions, reference images, project context, IP references, asset lists, or rough sketches."
+}

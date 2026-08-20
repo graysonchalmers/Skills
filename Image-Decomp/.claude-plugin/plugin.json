@@ -1,0 +1,9 @@
+{
+  "name": "image-decomp",
+  "version": "1.0.0",
+  "author": {
+    "name": "Grayson Chalmers",
+    "url": "https://github.com/graysonchalmers"
+  },
+  "description": "Decompose and decode any image: craft (palette, style, refs, X-meets-Y pitch lines, regen prompt) + intent (engagement archetypes, Dopamine-Hook + Authenticity-Gap)."
+}
